@@ -7,4 +7,14 @@ class Dog
     @@all << self
   end
 
+  def self.all
+    @@all.each { |song|
+      puts song.name
+    }
+  end
+
+  def self.clear_all
+
+  end
+
 end
